@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import MyComponents from "@components/MyComponents";
+import { ReactComponent as SignIn } from "@assets/sign-in.svg";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <SignIn />
       </header>
+      <MyComponents />
     </div>
   );
 }
